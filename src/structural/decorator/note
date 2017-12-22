@@ -1,0 +1,9 @@
+The concept of a decorator is that it adds additional attributes to an object dynamically.
+it's used to form large object structures across many disparate objects. 
+
+Allows for the dynamic wrapping of objects in order to modify their existing responsibilities and behaviours
+
+Would I Use This Pattern?
+The Decorator pattern should be used when:
+1. Object responsibilities and behaviors should be dynamically modifiable
+2. Concrete implementations should be decoupled from responsibilities and behaviors 

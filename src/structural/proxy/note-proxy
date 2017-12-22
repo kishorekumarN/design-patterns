@@ -1,0 +1,8 @@
+Proxy pattern does - controls and manage access to the object they are "protecting".
+Allows for object level access control by acting as a pass through entity or a placeholder object.
+
+Create a "wrapper" for a remote, or expensive, or sensitive target
+Encapsulate the complexity/overhead of the target in the wrapper
+The client deals with the wrapper
+The wrapper delegates to the target
+To support plug-compatibility of wrapper and target, create an interface

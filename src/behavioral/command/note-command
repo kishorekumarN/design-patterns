@@ -1,0 +1,14 @@
+Command pattern is a data driven design pattern and falls under behavioral pattern category. 
+A request is wrapped under an object as command and passed to invoker object. 
+Invoker object looks for the appropriate object which can handle this command and passes the 
+command to the corresponding object which executes the command.
+
+Command Pattern is useful:
+1. A history of requests is needed
+2. You need callback functionality
+3. Requests need to be handled at variant times or in variant orders
+4. The invoker should be decoupled from the object handling the invocation.
+
+You'll see command being used a lot when you need to have multiple undo operations, 
+where a stack of the recently executed commands are maintained. To implement the undo, 
+all you need to do is get the last Command in the stack and execute it's undo() method.

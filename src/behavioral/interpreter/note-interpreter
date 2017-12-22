@@ -1,0 +1,19 @@
+Given a language, define a representation for its grammar along with an interpreter 
+that uses the representation to interpret sentences in the language.
+
+The Interpreter pattern is known as abehavioural pattern, as it's used to manage algorithms, 
+relationships and responsibilities between objects..
+
+Example
+The Interpreter pattern defines a grammatical representation for a language and an interpreter to interpret the grammar.
+
+
+ 
+ There are three notations to a mathematical expression i.e. infix, postfix, and prefix.
+ 
+ Infix notation is the common arithmetic and logical formula notation, in which operators are written infix-style between the operands they act on e.g. 3+4.
+ 
+ A postfix a.k.a. Reverse Polish notation (RPN) is mathematical notation in which every operator follows all of its operands e.g. 34+.
+ 
+ Prefix (Polish notation) is a form of notation for logic, arithmetic, and algebra in which operators to the left of their operands e.g. +34.
+ 
